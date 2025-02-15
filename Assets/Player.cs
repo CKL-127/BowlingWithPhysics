@@ -18,10 +18,4 @@ public class Player : MonoBehaviour
         Vector3 moveDirection = new(direction.x, 0f, direction.y);
         rb.AddForce(speed * moveDirection);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

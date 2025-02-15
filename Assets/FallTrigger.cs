@@ -14,14 +14,4 @@ public class FallTrigger : MonoBehaviour
             Debug.Log($"{gameObject.name} is fallen");
         }
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
